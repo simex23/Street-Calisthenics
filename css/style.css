@@ -1,0 +1,35 @@
+body{
+	font-family:"Lato",Sans-Serif,serif;
+}
+footer{
+	font-family:"Lato",Sans-Serif,serif;
+}
+h1{
+
+}
+a{
+	text-decoration: none;
+	color:black;
+}
+.main-menu{
+	padding:5px;
+	background-color: grey;
+
+}
+.main-menu ul{
+	list-style-type: none;
+}
+.main-menu li{
+	display:inline;
+	padding:10px;
+	color:white;
+	
+}
+.main-menu a:hover{
+	background-color: #333;
+	padding-bottom: 20px;
+	padding-top:20px;
+}
+.jumbotron{
+
+}
