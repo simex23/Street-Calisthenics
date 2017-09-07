@@ -3,6 +3,9 @@ body{
 }
 footer{
 	font-family:"Lato",Sans-Serif,serif;
+	background-color:lightgray;
+	padding:20px;
+	text-align:center;
 }
 h1{
 
@@ -13,8 +16,9 @@ a{
 }
 .main-menu{
 	padding:5px;
-	background-color: grey;
-
+	background-color: #008cff;
+	width:100%;
+	position:fixed;
 }
 .main-menu ul{
 	list-style-type: none;
@@ -26,10 +30,18 @@ a{
 	
 }
 .main-menu a:hover{
-	background-color: #333;
+	background-color: #0b24a5;
 	padding-bottom: 20px;
 	padding-top:20px;
 }
 .jumbotron{
-
+	background:url("../images/main.jpg") no-repeat, center, center, fixed;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	color:white;
+	text-align:center;
+	width:100%;
+	height:700px;
 }
