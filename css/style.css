@@ -1,3 +1,12 @@
+/*html{
+	background:url("../images/background.jpg") no-repeat, center, center, fixed;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	width:100%;
+	height:100%;
+}*/
 body{
 	font-family:"Lato",Sans-Serif,serif;
 }
@@ -15,33 +24,45 @@ a{
 	color:black;
 }
 .main-menu{
-	padding:5px;
-	background-color: #008cff;
-	width:100%;
+	top:0px;
+	left:0px;
+	background-color: rgba(0,0,0,0.5);
 	position:fixed;
+	width:100%;
+	z-index:10;
+	
 }
 .main-menu ul{
 	list-style-type: none;
 }
 .main-menu li{
-	display:inline;
-	padding:10px;
+	display:inline-block;
+	margin:10px;
 	color:white;
-	
+	word-spacing:0.5em;
+	letter-spacing: 0.1em;
 }
 .main-menu a:hover{
-	background-color: #0b24a5;
-	padding-bottom: 20px;
-	padding-top:20px;
+	background-color: #2275f9;
+	padding-bottom: 16px;
+	padding-top:16px;
 }
 .jumbotron{
-	background:url("../images/main.jpg") no-repeat, center, center, fixed;
-	-webkit-background-size:cover;
-	-moz-background-size:cover;
-	-o-background-size:cover;
+	background-image:url("../images/background.jpg") no-repeat center center fixed;
 	background-size:cover;
 	color:white;
 	text-align:center;
 	width:100%;
 	height:700px;
+	margin-top: 40px;
+}
+.jumbotron .welcome{
+	text-align: center;
+	font-size: 70px;
+	margin-top:350px;
+	-webkit-text-stroke-width:2px;
+	-webkit-text-stroke-color:#2275f9;
+}
+.content{
+	top:20px;
 }
